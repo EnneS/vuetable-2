@@ -1332,6 +1332,9 @@ export default {
 </script>
 
 <style scoped>
+  .searchFilter{
+    width:100%;
+  }
   [v-cloak] {
     display: none;
   }
