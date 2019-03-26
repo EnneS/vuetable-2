@@ -787,7 +787,6 @@ export default {
       }
     },
     loadFailed (response) {
-      console.error('load-error', response)
       this.fireEvent('load-error', response)
       this.fireEvent('loaded')
     },
